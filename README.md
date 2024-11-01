@@ -7,20 +7,20 @@ Airbnb telah menjadi salah satu platform utama untuk penyewaan akomodasi di selu
 # Penjelasan tentang Data
 Dataset yang digunakan dalam analisis ini mencakup berbagai kolom penting, antara lain:
 
-price: Harga per malam untuk setiap listing, yang mencerminkan biaya yang dikenakan kepada tamu.
-room_type: Jenis kamar yang ditawarkan, seperti "Entire home/apt", "Private room", dan "Shared room".
-neighbourhood: Lokasi listing di Bangkok, yang memberikan konteks geografis dan aksesibilitas.
-number_of_reviews: Jumlah ulasan yang diterima oleh setiap listing, menunjukkan popularitas dan pengalaman tamu sebelumnya.
-availability: Ketersediaan listing untuk disewa, yang berpengaruh pada potensi pendapatan host.
+- price: Harga per malam untuk setiap listing, yang mencerminkan biaya yang dikenakan kepada tamu.
+- room_type: Jenis kamar yang ditawarkan, seperti "Entire home/apt", "Private room", dan "Shared room".
+- neighbourhood: Lokasi listing di Bangkok, yang memberikan konteks geografis dan aksesibilitas.
+- number_of_reviews: Jumlah ulasan yang diterima oleh setiap listing, menunjukkan popularitas dan pengalaman tamu sebelumnya.
+- availability: Ketersediaan listing untuk disewa, yang berpengaruh pada potensi pendapatan host.
 # Analisis Data
 Dalam analisis ini, dilakukan beberapa langkah:
 
-Statistik Deskriptif: Menghitung rata-rata, median, dan sebaran harga berdasarkan jenis kamar dan lokasi. Hal ini membantu dalam memahami tren harga di berbagai daerah.
+- Statistik Deskriptif: Menghitung rata-rata, median, dan sebaran harga berdasarkan jenis kamar dan lokasi. Hal ini membantu dalam memahami tren harga di berbagai daerah.
 
-Uji Statistik: Menggunakan Kruskal-Wallis Test untuk menguji perbedaan harga antar jenis kamar dan lokasi. Uji ini memberikan gambaran apakah perbedaan yang ditemukan signifikan secara statistik.
+- Uji Statistik: Menggunakan Kruskal-Wallis Test untuk menguji perbedaan harga antar jenis kamar dan lokasi. Uji ini memberikan gambaran apakah perbedaan yang ditemukan signifikan secara statistik.
 
-Korelasi: Menganalisis hubungan antara jumlah ulasan dan harga, serta dampaknya terhadap lokasi. Ini membantu mengidentifikasi faktor yang dapat mempengaruhi keputusan tamu dalam memilih akomodasi.
+- Korelasi: Menganalisis hubungan antara jumlah ulasan dan harga, serta dampaknya terhadap lokasi. Ini membantu mengidentifikasi faktor yang dapat mempengaruhi keputusan tamu dalam memilih akomodasi.
 
-Analisis Outlier: Mengidentifikasi nilai outlier dalam data harga dan ketersediaan, yang dapat memberikan wawasan tentang listing yang ekstrem dan berpotensi mempengaruhi pasar secara keseluruhan.
+- Analisis Outlier: Mengidentifikasi nilai outlier dalam data harga dan ketersediaan, yang dapat memberikan wawasan tentang listing yang ekstrem dan berpotensi mempengaruhi pasar secara keseluruhan.
 
-Visualisasi: Membuat grafik dan visualisasi untuk menggambarkan hasil analisis, sehingga informasi dapat dipahami dengan lebih baik oleh pembaca.
+- Visualisasi: Membuat grafik dan visualisasi untuk menggambarkan hasil analisis, sehingga informasi dapat dipahami dengan lebih baik oleh pembaca.
